@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="#E9F7EF">
+
+    <TextView
+        android:id="@+id/txtNomeTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da tarefa"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/txtDescricaoTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:layout_marginTop="6dp" />
+
+    <Button
+        android:id="@+id/btnConcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Concluir"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

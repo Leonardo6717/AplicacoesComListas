@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/rootMain"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="28dp"
+    android:paddingBottom="24dp"
+
+    android:background="@drawable/bg_main_gradient">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Olá! "
+        android:textColor="#DDD5FF"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+
+        android:text="Minhas Listas"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:text="Organize seus filmes favoritos e suas tarefas em um só lugar."
+        android:textColor="#D8D1F4"
+        android:textSize="15sp"
+        android:lineSpacingExtra="3dp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+
+    <!-- CARD FILMES -->
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="28dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            android:padding="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="🎬"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="6dp"
+
+                android:text="Filmes Favoritos"
+                android:textSize="21sp"
+                android:textStyle="bold"
+
+                android:textColor="#282231" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="4dp"
+
+                android:text="Cadastre seus filmes e diretores favoritos."
+                android:textSize="13sp"
+
+                android:textColor="#77717F" />
+
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnFilmes"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="16dp"
+
+                android:text="Ver meus filmes"
+                android:textAllCaps="false"
+
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                android:textColor="#FFFFFF"
+
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+
+                app:cornerRadius="16dp"
+                app:backgroundTint="#6C4FD3" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+
+    <!-- CARD TAREFAS -->
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="28dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            android:padding="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="✓"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:textColor="#6C4FD3" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="6dp"
+
+                android:text="Minhas Tarefas"
+                android:textSize="21sp"
+                android:textStyle="bold"
+
+                android:textColor="#282231" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="4dp"
+
+                android:text="Organize e conclua suas atividades."
+                android:textSize="13sp"
+
+                android:textColor="#77717F" />
+
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnTarefas"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="16dp"
+
+                android:text="Ver minhas tarefas"
+                android:textAllCaps="false"
+
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                android:textColor="#FFFFFF"
+
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+
+                app:cornerRadius="16dp"
+                app:backgroundTint="#6C4FD3" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

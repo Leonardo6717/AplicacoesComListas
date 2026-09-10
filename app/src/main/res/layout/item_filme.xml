@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+
+    android:layout_margin="6dp"
+
+    app:cardCornerRadius="22dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        android:padding="17dp">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="🎬"
+
+            android:textSize="25sp" />
+
+
+        <Space
+
+            android:layout_width="1dp"
+            android:layout_height="12dp" />
+
+
+        <TextView
+
+            android:id="@+id/txtTituloFilme"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Interestelar"
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            android:maxLines="2"
+
+            android:textColor="#282331" />
+
+
+        <TextView
+
+            android:id="@+id/txtDiretorFilme"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+
+            android:text="Christopher Nolan"
+
+            android:textSize="13sp"
+
+            android:maxLines="1"
+
+            android:textColor="#77717F" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
